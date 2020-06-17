@@ -1,0 +1,44 @@
+
+.hello {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+}
+.title {
+        color: #8f8f94;
+        margin-top: 50rpx;
+}
+.ul {
+        font-size: 30rpx;
+        color: #8f8f94;
+        margin-top: 50rpx;
+}
+.ul>view {
+        line-height: 50rpx;
+}
+.btn2 {
+		background-color: #FF6D89;
+		padding: 26rpx;
+		text-align: center;
+		color: #ffffff;
+		border-radius: 80rpx;
+		width: 580rpx;
+		margin: 0 auto;
+}
+.btn-row  {
+		margin-top: 10rpx;
+}
+.btn-msg {
+		text-align: center;margin: 16rpx 0 20rpx 0;color: #8F8F94;font-size: 32rpx;
+}
+
